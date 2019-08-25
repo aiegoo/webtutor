@@ -18,24 +18,26 @@ a {text-decoration: none; color: inherit}
 .submenu > li {color: #fff}
 .submenu > li:hover {background: rgba(255,255,255,0.5)}
 
-.banner {width: 1000px; height: 350px; position: relative; z-index: -100; overflow: hidden;}
+.banner {width: 1000px; height: 350px; position: relative; z-index: -9999; overflow: hidden;}
 .slide {position: absolute;width: 3000px; height: 350px; top: 0; left: 0;}
 .slide > li {float: left;}
 
 .welcome {position: absolute;width: 350px; height: 120px; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background: rgba(255,255,255,0.4); color: #fff; border-radius: 25px;}
 .welcome h2 {line-height: 120px;}
 
-.btn-slide {position: absolute;width: 350px; height: 40px; text-align: center; bottom: 25px; left: 50%; transform: translateX(-50%); border-radius: 25px; color: #fff; z-index: 200;}
-.btn-prev {font-size: 2rem; cursor: pointer; float: left;}
-.btn-next {font-size: 2rem; cursor: pointer;}
+.btn-slide {position: absolute;width: 350px; height: 40px; text-align: center; bottom: 25px; left: 50%; transform: translateX(-38%); border-radius: 25px; color: #fff;z-index: 9999;}
+.btn-prev {font-size: 2rem; cursor: pointer; float: left; z-index: 9999;}
+.btn-prev:hover {background: rgba(255,255,255,0.5);}
+.btn-next:hover {background: rgba(255,255,255,0.5);}
+.btn-next {float: right; font-size: 2rem; cursor: pointer; z-index: 9999;}
 
 contents {width: 1000px; margin: 0 auto}
 .notice {width: 500px; float: left;}
 .notice h2 {text-align: center; padding: 15px;}
-table {line-height: 30px; border-collapse: collapse}
+table {/* line-height: 30px; */ border-collapse: collapse}
 .table {color: #666}
-.table tr>th {text-align: center;padding: 5px 15px 0;}
-.table tr>td {line-height: 40px; height: 30px;}
+.table tr>th {text-align: center;/* padding: 5px 5px 0; */}
+.table tr>td {/* line-height: 40px; */ height: 30px;}
 .table tr:nth-child(2n) {background: rgba(152,103,152,0.5)}
 .table tr:nth-child(2n+2) {padding-left: 50px;}
 
@@ -44,9 +46,9 @@ table {line-height: 30px; border-collapse: collapse}
 .partner_info {text-align: center; cursor: pointer}
 .partner_info img {width: 100%; height: 280px;}
 
-.icon {width: 1000px; margin: 0 auto; float: left;}
-.icons {width: 39%; height: 300px;}
-.icons img {width:220px}
+.icon {width: 1000px; margin: 0 auto; float: left; margin-bottom: 30px;}
+.icons {width: 30%; height: 300px; float: left;}
+.icons img {width:220px; text-align: center}
 .icon-btn {width: 150px; height: 40px; border-radius: 10px; background: rgba(152,103,152,0.5); text-align: center; line-height: 50px; padding: 20px; margin-left: 50px;}
 
 footer {width: 1000px; height: 150px; padding: 30px}

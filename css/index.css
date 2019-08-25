@@ -34,6 +34,7 @@ a {text-decoration: none; color: inherit}
 .table tr>td {padding: 8px 0; color: #000;}
 .tabel tr>td:nth-child(2n) {background: rgba(187, 105, 45, 0.3)}
 
+/* it's supposed to take up half of the full width */
 .partner {float: left; width: 480px; margin-left: 25px;}
 .partner > h2 {text-align: center; font-size: 1.2rem; color: #000; padding: 25px 0;}
 .partner_info {margin: 0 auto; margin-left: 25px;}

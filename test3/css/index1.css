@@ -23,4 +23,4 @@ a {text-decoration: none; color: inherit;}
 .welcome h2 {color: rgb(0,156,115)}
 
 .btn-slide {position: absolute;color: #fff; font-size: 3rem; font-weight: bold;width: 240px; height: 40px; margin: 0 auto; bottom: 29%; left: 50%; transform: translate(-50%, -50%);z-index: 100;}
-.span.bts {cursor: pointer; display: inline; float: left;}
+.span.bts {cursor: pointer; display: inline; float: left;}/* aug 29 */

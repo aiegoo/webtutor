@@ -8,9 +8,10 @@ a {text-decoration: none; color: inherit}
 .clear:after {clear: both; content: ""; display: block;}
 
 .wrap {width: 1000px; margin: 0 auto}
+.all {height: 530px;}
 .header {width: 1000px; height: 180px; background: #fff}
 .logo {float: left;}
-.navs {float: right;text-align: center; z-index: 10;}
+.navs {float: right;text-align: center; z-index: 9999;}
 .nav {float: left; width: 200px; height: 180px; line-height: 100px; text-align: center;}
 .nav > div:hover {background: rgba(152,103,152,0.8); color: #fff; cursor: pointer;}
 
@@ -18,7 +19,7 @@ a {text-decoration: none; color: inherit}
 .submenu > li {color: #fff}
 .submenu > li:hover {background: rgba(255,255,255,0.5)}
 
-.banner {width: 1000px; height: 350px; position: relative; z-index: -9999; overflow: hidden;}
+.banner {width: 1000px; height: 350px; position: relative; z-index: unset; overflow: hidden;}
 .slide {position: absolute;width: 3000px; height: 350px; top: 0; left: 0;}
 .slide > li {float: left;}
 
@@ -31,7 +32,7 @@ a {text-decoration: none; color: inherit}
 .btn-next:hover {background: rgba(255,255,255,0.5);}
 .btn-next {float: right; font-size: 2rem; cursor: pointer; z-index: 9999;}
 
-contents {width: 1000px; margin: 0 auto}
+.contents {width: 1000px; margin: 0 auto}
 .notice {width: 500px; float: left;}
 .notice h2 {text-align: center; padding: 15px;}
 table {/* line-height: 30px; */ border-collapse: collapse}

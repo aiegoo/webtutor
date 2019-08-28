@@ -19,16 +19,15 @@ a {text-decoration: none; color: inherit}
 .submenu > li:hover {background: rgba(222,222,222,0.9); color: #fff}
 
 .banner {width: 1000px; height: 400px; margin: 0 auto; position: relative;overflow: hidden; z-index: unset;}/* very good */
-=======
+
 .submenu {position: absolute; width: 180px; display: none; z-index: 1;}/* change of mind - voila it works */
-=======
 .submenu {position: absolute; width: 180px; display: none; z-index: 1;}/* change of mind - voila it works! */
->>>>>>> 9f19ba2e270afcee80eae98f397243c3adedaa66
+
 .submenu > li {background: rgba(222,222,222,0.4);/* rgba(152,104,152,0.7); */ color:#000; line-height: 40px;}
 .submenu > li:hover {background: rgba(222,222,222,0.9); color: #fff}
 
 .banner {width: 1000px; height: 400px; margin: 0 auto; position: relative;overflow: hidden; /* z-index: -10; */}/* very good */
->>>>>>> b445391653da624a5d88892c71f7906c038f79b7
+
 .slide {width: 5000px; position: absolute; top: 0; left: 0;}
 .slide li {float: left;}
 

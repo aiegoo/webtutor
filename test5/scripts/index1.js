@@ -4,7 +4,7 @@ $(".nav").hover(function(){
      $("ul", $(this)).stop().slideUp();
 });
 
-$(".bts").click(function(){
+$(".bts a").click(function(){
      var n = $(this).index();
      $(".bts").css("color", "#fff");
      $(".bts").css("color", "#f30");

@@ -6,7 +6,7 @@ $(".nav").hover(function(){
 
 var n = 0;
 (function ani(){
-          $(".slide").delay(2000).animate({"left": "-=960px"}, 2000, function(){
+          $(".slide li").delay(2000).animate({"left": "-=960px"}, 2000, function(){
                     n++;
                     if (n==3){
                               n = 0;

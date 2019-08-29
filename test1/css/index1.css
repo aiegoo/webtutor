@@ -10,6 +10,10 @@ a {text-decoration: none; color: inherit}
 .logo {float: left;}
 .navs {float: right; cursor:pointer;}
 .nav {float: left; width: 200px; text-align: center}
+
+.submenu {width: 200px; background: rgba(222,222,222,0.4); position: absolute; display: none; }
+
+
 .banner {width: 960px; height: 400px; position: relative; overflow: hidden; margin: 0 auto;}
 .slide {position: absolute;width: 3840px; height:400px;}
 .slide>li {float: left;}

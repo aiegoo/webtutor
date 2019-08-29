@@ -4,9 +4,16 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .clear:after {clear: both; content: ""; display: block;}
 
 .wrap {width: 960px; margin: 0 auto;}
-.header {position: absolute;top: 0;left: 0; width: 200px; height: 150px; background: #ccc}
-.logo {float: left; height: 120px;}
-.navs {position: absolute;left: 0; top: 130px; width: 500px;}
+.header {position: relative; top: 142px;left: -21%; width: 200px; height: 150px; background: #ccc}
+.logo {    float: left;
+    width: 200px;
+    height: 120px;}
+.logo img {
+    width: 200px;
+}
+.navs {left: 0;
+    top: 87px;
+    width: 200px;}
 .nav {background: #eee; cursor: pointer; text-align: center}
 .nav > div {padding: 1rem; background: #999; font-size: 2rem;color: white}
 .nav > div:hover {background: chocolate}

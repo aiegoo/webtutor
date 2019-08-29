@@ -11,15 +11,19 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .nav > div {text-align: center; color: #000;}
 .nav > div:hover {background: rgba(122,122,122,0.4);}
 
-.submenu {width: 200px; position: absolute; text-align: center;z-index: 10; line-height: 40px;}
+.submenu {width: 200px;  text-align: center;z-index: 10; line-height: 40px; display: none;}
 .submenu > li {background: #ccc;}
 .submenu > li:hover {background: rgba(187,105,45,0.4)}
 
-.banner {width: 960px; margin: 0 auto; position: relative; overflow: hidden;}
+.banner {width: 960px; margin: 0 auto; position: relative; overflow: hidden; height: 400px; z-index: -3;}
 .slide {width: 5760px;  position: absolute;top: 0; left: 0;}
 .slide li {float: left;}
 
-.welcome {position: absolute; width: 400px; height: 100px; line-height: 100px; text-align: center; left: 50%; transform: translate(-50%, -50%); background: rgba(187, 105, 45, 0.4); color: white; border-radius: 15px; z-index: 10;}
+.legal {float: left; line-height: 40px;}
+.footer p {float: right;}
+.footer p:hover {color: white;}
+
+.welcome {position: absolute; width: 400px; height: 100px; line-height: 100px; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(187, 105, 45, 0.4); color: white; border-radius: 15px; z-index: 10;}
 .welcome h2 {color: white; line-height: 50px; }
 .welcome div {color: rgb(187,156,115)}
 
@@ -33,12 +37,16 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .table tr:nth-child(2n) {background: rgba(153,153,153,0.3)}
 
 .partner {width:50%; float: left;}
-.partner h2 {text-align: center;}
+.partner h2 {text-align: center; margin: 30px}
+.partner_info { margin-left: 10%;}
 
 .icon {width: 960px; float: left;}
 .icons {float: left;width: 30%; text-align: center; margin: 1%;}
 .icons img {width: 57%;}
-.icon-btn {margin: 0 auto; width: 70%; border-radius: 10px; padding: 5px; font-size: 2rem; background: rgba(122,122,122,0.4); letter-spacing: -5px;}
+.icon-btn { cursor: pointer;  margin: 0 auto; width: 70%; border-radius: 10px; padding: 5px; font-size: 2rem; background: rgba(122,122,122,0.4); letter-spacing: -5px;}
 .icon-btn:hover {background: rgba(51,102,205,0.5)}
+
+footer {width: 960px; height: 100px; margin: 0 auto; color: #999;}
+.footer {background: rgb(187,105,45,0.4); padding: 40px;}
 
 /* please complete the footer section as you can */

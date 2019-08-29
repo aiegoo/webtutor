@@ -35,7 +35,7 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .partner {width:50%; float: left;}
 .partner h2 {text-align: center;}
 
-.icon {width: 960px; height: 200px; float: left;}
+.icon {width: 960px; float: left;}
 .icons {float: left;width: 30%; text-align: center; margin: 1%;}
 .icons img {width: 57%;}
 .icon-btn {margin: 0 auto; width: 70%; border-radius: 10px; padding: 5px; font-size: 2rem; background: rgba(122,122,122,0.4); letter-spacing: -5px;}

@@ -43,9 +43,20 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .table tr>td {padding: 3px 0 0; margin-right: 5px;}
 .table tr:nth-child(2n) {background: rgba(153,153,153,0.3)}
 
-.partner {width:50%; float: left;}
+/* .partner {width:50%; float: left;}
 .partner h2 {text-align: center; margin: 30px}
-.partner_info { margin-left: 10%;}
+.partner_info { margin-left: 10%;} */
+
+.tab-wrap {width: 50%; float: left;}
+.tabs {width: 100%; margin: 10px auto; position: relative;}
+.tab-buttons span {font: 400 0.9rem 'open sans', sans-serif; color: #000; background: #eee; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center; height: 40px; line-height: 40px; border-bottom: 1px solid #ddd;}
+.tab-content {border-bottom: 3px solid #ddd; background: #eee; display: inline-block;}
+
+#lamp {width: 33.33%; height: 2px; background: #333; display: block;position: absolute; top: 40px; transition: all .3s ease-in;}
+#amp.content2 {left: 33.33%; transition: all .3s ease-in}
+#amp.content2 {left: 66.66%; transition: all .3s ease-in}
+#amp.content2 {left: 0; transition: all .3s ease-in}
+
 
 .icon {width: 960px; float: left;}
 .icons {float: left;width: 30%; text-align: center; margin: 1%;}

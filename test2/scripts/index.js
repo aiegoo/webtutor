@@ -29,3 +29,18 @@ function modalClose(){
 function popUp(){
      window.open("contact.html", "win", "width=300, height=200, scrollbars=no, toolbar=no, menubar=no, status=no, location=no, resizable=no");
 }
+
+var tabBody = $(".content > div");
+$(Content).hide();
+$(Content).last().slideDown(500);
+$(".tab-buttons span").click(function(){
+     var Tabs = $("this").attr("class");
+     $("#lamp").removeClass().addClass("#lamp").addClass(Tabs);
+     $(Content).each(function(){
+          if($(this).hasClass(Tabs)){
+               $(this).fadeIn(800);
+          }else{
+               $(this).hide();
+          }
+     });
+});

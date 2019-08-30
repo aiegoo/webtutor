@@ -13,9 +13,11 @@ a {text-decoration: none; color: inherit}
 .nav > div {background: #999; padding: 1rem; font-size: 2rem; color: #fff;}
 .nav > div:hover {background: chocolate;}
 
-.submenu {color:chocolate; font-weight: bolder; font-size: 1.4rem; padding: 15px 0}
+.submenu {color:chocolate; font-weight: bolder; font-size: 1.4rem; padding: 15px 0; display: none;}
 .submenu > li {background-blend-mode: luminosity; padding: 0.5rem 0.5rem 1.5rem;}
 .submenu > li:hover {background: #fff;}
+
+.submenu li:first-child {display: block;} /* how to make the first submenu always visible? */
 
 .banner {width: 1000px; margin: 0 auto; position: relative; left: 200px;height: 400px; z-index: -3; overflow: hidden;}
 .slide {position: absolute;width: 4200px; height: 400px; top: 0; left: 0;}
@@ -27,3 +29,19 @@ a {text-decoration: none; color: inherit}
 
 .contents {position: relative; left: 200px; width: 1000px; height: 500px;}
 .notice {width: 50%; float: left; margin: 0 2%;}
+.notice h2 {color: #000; line-height: 50px; text-align: center;}
+
+table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
+.table tr>td {padding: 5px 0 5px; margin-right: 50px; }
+.table tr:nth-child(2n) {background: rgba(153,153,15,0.3)}
+
+.tab-wrap {width: 45%; float: left;}
+.tabs {width: 100%; margin: 20px auto; position: relative;}
+.tab-buttons {border-right: 2px solid white;}/* make it work plz */
+.tab-buttons span {font: 400 0.9rem 'open sans', sans-serif; color: #000; background: coral; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center}
+.tab-content {border-bottom: 3px solid #ddd; background: #eee; display: inline-block;}
+
+#lamp {width: 33.33%; height: 2px; background: #333; display: block; position: absolute; top: 20px; transition: all .3 ease-in}
+#lamp.content2 {left: 33.33%; transition: all .3s ease-in}
+#lamp.content3 {left: 66.66%; transition: all .3s ease-in}
+#lamp.content1 {left: 0; transition: all .3s ease-in}

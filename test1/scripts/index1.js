@@ -29,5 +29,5 @@ $(".tab-buttons span").click(function(){
           }else{
                $(this).hide();
           }
-     });
+});
 });

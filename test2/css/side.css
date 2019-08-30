@@ -26,10 +26,6 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .slide {width: 5760px;  position: absolute;top: 0; left: 0;}
 .slide li {float: left;}
 
-.legal {float: left; line-height: 40px;}
-.footer p {float: right;}
-.footer p:hover {color: white;}
-
 .welcome {position: absolute; width: 400px; height: 100px; line-height: 100px; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(187, 105, 45, 0.4); color: white; border-radius: 15px; z-index: 10;}
 .welcome h2 {color: white; line-height: 50px; }
 .welcome div {color: rgb(187,156,115)}
@@ -53,9 +49,9 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .tab-content {border-bottom: 3px solid #ddd; background: #eee; display: inline-block;}
 
 #lamp {width: 33.33%; height: 2px; background: #333; display: block;position: absolute; top: 40px; transition: all .3s ease-in;}
-#amp.content2 {left: 33.33%; transition: all .3s ease-in}
-#amp.content2 {left: 66.66%; transition: all .3s ease-in}
-#amp.content2 {left: 0; transition: all .3s ease-in}
+#lamp.content2 {left: 33.33%; transition: all .3s ease-in}
+#lamp.content3 {left: 66.66%; transition: all .3s ease-in}
+#lamp.content1 {left: 0; transition: all .3s ease-in}
 
 
 .icon {width: 960px; float: left;}
@@ -68,3 +64,7 @@ footer {width: 960px; height: 100px; margin: 0 auto; color: #999;}
 .footer {background: rgb(187,105,45,0.4); padding: 40px;}
 
 /* please complete the footer section as you can */
+
+.legal {float: left; line-height: 40px;}
+.footer p {float: right;}
+.footer p:hover {color: white;}

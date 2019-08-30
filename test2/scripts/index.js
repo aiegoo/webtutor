@@ -31,16 +31,18 @@ function popUp(){
 }
 
 var tabBody = $(".content > div");
-$(Content).hide();
-$(Content).last().slideDown(500);
+$(".content").hide();
+$(".content").last().slideDown(500);
 $(".tab-buttons span").click(function(){
      var Tabs = $("this").attr("class");
      $("#lamp").removeClass().addClass("#lamp").addClass(Tabs);
-     $(Content).each(function(){
+     $(".content").each(function(){
           if($(this).hasClass(Tabs)){
                $(this).fadeIn(800);
+               alert("000000");
           }else{
-               $(this).hide();
+               $(this).show();
+               alert("1111111111");
           }
      });
 });

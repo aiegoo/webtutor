@@ -53,9 +53,9 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .tab-content {border-bottom: 3px solid #ddd; background: #eee; display: inline-block;}
 
 #lamp {width: 33.33%; height: 2px; background: #333; display: block;position: absolute; top: 40px; transition: all .3s ease-in;}
-#amp.content2 {left: 33.33%; transition: all .3s ease-in}
-#amp.content2 {left: 66.66%; transition: all .3s ease-in}
-#amp.content2 {left: 0; transition: all .3s ease-in}
+#lamp.content2 {left: 33.33%; transition: all .3s ease-in}
+#lamp.content3 {left: 66.66%; transition: all .3s ease-in}
+#lamp.content1 {left: 0; transition: all .3s ease-in}
 
 
 .icon {width: 960px; float: left;}

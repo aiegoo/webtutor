@@ -16,5 +16,5 @@ $(".btn-prev").click(function(){
 });
 
 function ani(){
-     $(".slide").stop().animate({"left": (-n*1000)+"px"}, 2000;
+     $(".slide").stop().animate({"left": (-n*1000)+"px"}, 2000);
 }

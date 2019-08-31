@@ -1,0 +1,69 @@
+html, body {margin: 0; padding: 0; width: 100%; height: 100%; font-size: 16px; font-family: "맑은 고딕"; text-align: left; color: #999}
+ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none; color: inherit}
+
+.clear:after {clear: both; content: ""; display: block}
+
+#main {color:#969; background: rgba(153,102,153,0.5)}
+#sub {color: #cc9999; background: rgba(203, 153, 153, 0.5)}
+
+.wrap {width: 1000px; margin: 0 auto;}
+.header {width: 100%; height: 180px; background: #fff;}
+.logo {float: left;}
+.navs {float: right; margin: 0 auto;z-index: 1;}
+.nav {float: left; width: 200px; height: 100px; line-height: 100px; text-align: center;}
+.nav > div {color: #999; font-size: 1.4rem; position: relative;}
+.nav > div:hover {background: rgba(153,102,153,0.5)}
+
+.submenu {position: absolute; width: 200px; height: 50px; line-height: 50px; vertical-align: middle; text-align: center; top: 100px; z-index: 10; display: none;}
+.submenu li {background: rgba(153,102,153,0.5); color: #fff; font-size: 1.2rem;}
+.submenu li:hover {background: rgba(122,122,122,0.3)}
+
+.banner {width: 1000px; height: 350px; margin: 0 auto; position: relative; overflow: hidden;}
+.slide {width: 3000px; height: 350px ; position: absolute; top: 0; left: 0;}
+.slide li {float: left;}
+
+.welcome {position: absolute; width: 300px; height: 200px; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; background: rgba(153,102,153,0.3); line-height: 40px; text-align: center; font-size: 1.8rem;border-radius: 20px;}
+h2  span {font-size: 1.5rem; }
+
+.banner-btn {width: 300px; height: 40px; position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%)}
+.btn-prev {font-size: 3rem; font-weight: bolder; color: #fff; float: left;}
+.btn-prev:hover {cursor: pointer; background: rgba(0,0,0,0.3); color: red}
+.btn-next:hover {cursor: pointer; background: rgba(0,0,0,0.3); color: red}
+.btn-next {font-size: 3rem; font-weight: bolder; color: #fff; float: right;}
+
+.contents {width: 1000px; height: 500px; margin: 0 auto;}
+.notice {width: 50%; float: left;}
+.notice h2 {text-align: center; font-size: 1.2rem; margin: 20px 0; color: #000;}
+table {border-collapse: collapse; margin-right: 20px;}
+.table {}
+.table tr>th {text-align: center; font-weight: bolder;}
+.table tr>td {color: #000; }
+.table tr>td:nth-child(2) {color: blue;}
+.table tr:nth-child(2n) {background: rgba(153,102,153,0.5)}
+
+.tab-wrap {width: 48%; float: left; margin-top: 10px;}
+.tab-wrap h2 {text-align: center; font-size: 1.2rem; margin: 20px 0; color: #000}
+.tabs {width: 100%; height: 220px; margin: 4px auto; position: relative;}
+.tab-buttons {}
+.tab-buttons span {color: #eee; background:#99c; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center; line-height: 40px; box-shadow: 7px -7px 45px 1px }
+.tab-buttons span:hover {color: #ddd;}
+.content {display: inline-block;background: #eee; border-bottom: 3px solid #ddd; text-align: center; padding: 0 10px 0; overflow: hidden;}
+
+#lamp {width: 33.33%; height: 2px; background: #969; display: block; position: absolute; top:40px; transition: all .3s ease-in;}
+#lamp.content2 {left: 33.33%; transition: all .3s ease-in;}
+#lamp.content3 {left: 66.66%; transition: all .3s ease-in;}
+#lamp.content1 {left: 0; transition: all .3s ease-in;}
+
+.icon {width: 960px; float: left;}
+.icons {width: 33.33%; height: 280px; text-align: center; float: left; position: relative;}
+.icons img {width: 150px; padding: 20px;}
+.icons button {padding: 20px 20px; border-radius: 15px; color: #fff; background: rgba(122,122,122,0.9); text-align: center;position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%) }
+.icon-button {font-size: 1.4rem}
+
+footer {width: 960px; margin: 0 auto;position: relative;}
+.footer {font-size: 1.2rem; background: rgba(153,102,153,0.9); border-bottom: 2px solid black; color: #fff;}
+.footer-wrap {width: 100%; padding: 30px 20px; }
+.legal {float: left; width: 30%; line-height: 40px;}
+.footer-body {text-align: center; padding: 1%}
+.address {width: 100%; text-align: left;}

@@ -38,7 +38,7 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .tab-wrap {width: 45%; float: left;}
 .tabs {width: 100%; height: 200px; margin: 20px auto; position: relative;}
 .tab-buttons {border-right: 2px solid white;}/* make it work plz */
-.tab-buttons span {font: 400 0.9rem 'open sans', sans-serif; color: #000; background: coral; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center; line-height: 40px;}
+.tab-buttons span {font: 400 0.9rem 'open sans', sans-serif; color: #000; background: coral; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center; line-height: 40px;box-shadow: -10px -10px 25px 3px rgba(0,0,0,0.5)}
 .tab-content {border-bottom: 3px solid #ddd; background: #eee; display: inline-block;}
 
 #lamp {width: 33.33%; height: 2px; background: #333; display: block; position: absolute; top: 40px; transition: all .3 ease-in}

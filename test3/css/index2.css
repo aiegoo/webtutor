@@ -26,11 +26,11 @@ a {text-decoration: none; color: inherit}
 .welcome {position: absolute; width: 300px; height: 200px; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; background: rgba(153,102,153,0.3); line-height: 40px; text-align: center; font-size: 1.8rem;border-radius: 20px;}
 h2  span {font-size: 1.5rem; }
 
-.banner-btn {width: 300px; height: 40px; position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%)}
-.btn-prev {font-size: 3rem; font-weight: bolder; color: #fff; float: left;}
+.banner-btn {width: 400px; height: 40px; position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%)}
+.btn-prev {font-size: 3rem; font-weight: bolder; color: #fff; float: left; }
 .btn-prev:hover {cursor: pointer; background: rgba(0,0,0,0.3); color: red}
 .btn-next:hover {cursor: pointer; background: rgba(0,0,0,0.3); color: red}
-.btn-next {font-size: 3rem; font-weight: bolder; color: #fff; float: right;}
+.btn-next {font-size: 3rem; font-weight: bolder; color: #fff; float: right; float: right;}
 
 .contents {width: 1000px; height: 500px; margin: 0 auto;}
 .notice {width: 50%; float: left;}

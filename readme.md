@@ -15,3 +15,7 @@
 > finishes tags at 9:46 PM \
 > paused at 11:19 PM due to the sleep depreviation
 > resumed at 6:50 and finishes at 7:31 AM
+
+`Sep 1 Test4 Index2 on Final`
+> begins at 
+> finishes html tags at 9:42 AM

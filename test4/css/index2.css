@@ -1,0 +1,69 @@
+html, body {margin: 0; padding: 0; font-size: 16px; font-family: "맑은 고딕"; color: #fff; text-align: left; width: 100%; height: 100%;}
+ul, ol, li, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none; color: inherit;}
+
+.clear:after {clear: both; content: ""; display: block;}
+
+.wrap {width: 1000px; margin: 0 auto;}
+.header {width: 100%; background: #303030;height: 150px;}
+.logo {float: left;}
+.navs {float: right;}
+.nav {float: left; width: 200px; height: 100px; line-height: 100px; z-index: 10;}
+.nav > div {position: relative; font-weight: bold; text-align: center; position: relative;}
+.nav > div:hover {background: #06c; color: yellow}
+
+.submenu {position: relative; text-align: center; line-height: 50px; width:  200px; height: 40px; display: none; z-index: 100;}
+.submenu > li {background: #69f; width: 200px;}
+.submenu > li:hover {background: rgba(102,153,205,0.3)}
+
+.banner {width: 1000px; height: 350px; margin: 0 auto; position: relative; overflow: hidden;}
+.slide {width: 3000px; height: 350px; position: absolute; top: 0; left: 0; background: #000}
+.slide > li {float: left;}
+
+.welcome {position: absolute;width: 300px; height: 200px; background: rgba(255,255,255,0.3); border-radius: 20px; text-align: center; color:#fff; line-height: 50px; top: 50%; left: 50%; transform: translate(-50%, -80%);}
+.welcome h2 {font-size: 2.3rem; color: #fff; font-weight: bolder;background: #06c}
+.welcome span {font-size: 2rem; font-weight: bold; line-height: 0; color: #fff; background: rgba(48, 48, 48,0.7)}
+
+.slide-button {width: 300px; height: 40px; position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%)}
+.btn-prev {font-size: 5rem; font-weight: bolder; color: #fff; float: left; height: 40px; line-height: 40px;}
+.btn-prev:hover {cursor: pointer; background: rgba(0,0,0,0.3); color: red}
+.btn-next:hover {cursor: pointer; background: rgba(0,0,0,0.3); color: red}
+.btn-next {font-size: 5rem; font-weight: bolder; color: #fff; float: right; height: 40px; line-height: 40px;}
+
+.contents {width: 1000px; margin: 0 auto; position: relative;}
+.notice {float: left; color: #000;  margin: 20px 0; padding: 20px -10px; width:48%;}
+.notice h2 {text-align: center; margin-top: 20px 0;}
+table {border-collapse: collapse; font-size: 0.8rem;}
+.table {}
+.table tr>td {padding: 4px;}
+.table tr>td:nth-child(2) {color: blue;}
+.table tr:nth-child(2n-1) {background: rgba(102,153,205,0.3)}
+
+.tab-wrap {float: left; color: #000; margin: 20px; width: 48%; }
+.tab-wrap h2 {text-align: center; margin-top: 20px 0;}
+
+.tabs {width: 100%; height: 200px; margin: 4px auto; position: relative;}
+.tab-buttons span {color: #eee; background: #06c; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center; line-height: 40px; box-shadow: 7px -7px 45px 1px;}
+.tab-buttons span:hover {color: #ddd;}
+.content {display: inline-block; border-bottom: 2px solid #ddd; text-align: center; padding: 0 10px 0; overflow: hidden;}
+
+#lamp {width: 33.33%; height: 4px; background: rgba(0,102,204,0.6); display: block; position: absolute; top: 39px; }
+
+#lamp.content2 {left:33.33%; transition: all .3s ease-in;}
+#lamp.content3 {left:66.66%; transition: all .3s ease-in;}
+#lamp.content1 {left:0; transition: all .3s ease-in;}
+
+.icon {width: 1000px; height: 280px; margin: 0 auto;}
+.icons {width: 33.33%; float: left; text-align: center; padding: 20px 0 10px;position: relative;}
+.icons img {background: #06c; width: 50%;}
+.icons button {width: 50%;  text-align: center; float: right;}
+.icon-button {font-size: 1.4rem;}
+.button-wrap {position: absolute; bottom: -35px; width: 50%; left: 50%; transform: translateX(-75%)}
+
+footer {width: 1000px; height: 150px; margin: 0 auto; position: relative;}
+.footer {background: rgba(0,0,0,0.8); border-bottom: 1px solid black;}
+.footer-wrap {width: 100%; padding: 30px 20px}
+.legal {float: left; width: 30%; line-height: 40px;}
+
+.footer-body {text-align: center; margin-top: -30px}
+.address {width: 100%;}

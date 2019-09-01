@@ -4,11 +4,11 @@ $(".nav").hover(function(){
      $("ul", $(this)).stop().slideUp();
 });
 
-$(".bts a").click(function(){
+$(".bts").click(function(){
      var n = $(this).index();
-     $(".bts").css("color", "#fff");
-     $(".bts").css("color", "#f30");
-     $(".slide").animate({"left": (-n*1000)+"px"}, 500);
+     $(".bts a").css("color", "#fff");
+     $(".bts a").eq(n).css("color", "#f30");
+     $(".slide").stop().animate({"left": (-n*1000)+"px"}, 500);
 });
 
 function popUp(){

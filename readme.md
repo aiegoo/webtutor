@@ -18,6 +18,15 @@
 
 `Sep 1 Test4 Index2 on Final`
 > begins at 8:50 AM
-> 
 > finishes html tags at 9:42 AM
 > complete the test4 at 11:59 AM
+
+`Sep 1 Test Index on naomi`
+> fix the nav banner issues and add tabs to replace partner
+
+`Sep 1 Test5 Index2 on Final`
+> begins at 2:24 PM 
+> finishes html tags at 2:46 PM
+> fixes .slide-button bugs with dots for test5
+> break for snacs and chats for half an hour
+> complete Test5 at 5:32 PM

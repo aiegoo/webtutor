@@ -31,3 +31,12 @@ $(".tab-buttons span").click(function(){
      }
 });
 });
+
+function modalOpen(){
+     $("#modal-bg").show();
+     $("#modal-wrap").css("display", "table-cell")
+}
+function modalClose(){
+     $("#modal-bg").hide();
+     $("modal-wrap").css("display", "none");
+}

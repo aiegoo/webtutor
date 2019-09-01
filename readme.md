@@ -17,5 +17,7 @@
 > resumed at 6:50 and finishes at 7:31 AM
 
 `Sep 1 Test4 Index2 on Final`
-> begins at 
+> begins at 8:50 AM
+> 
 > finishes html tags at 9:42 AM
+> complete the test4 at 11:59 AM

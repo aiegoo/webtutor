@@ -1,0 +1,35 @@
+[33m0121721[m[33m ([m[1;36mHEAD -> [m[1;32mfinal[m[33m)[m add files for test6 on final 0903
+ readme.md                         |    10 [32m+[m[31m-[m
+ test6/css/_notes/dwsync.xml       |     4 [32m+[m
+ test6/css/index.css               |    71 [32m+[m
+ test6/css/index01.css             |    87 [32m+[m
+ test6/css/index09.css             |    65 [32m+[m
+ test6/css/index09a.css            |    69 [32m+[m
+ test6/css/index09b.css            |    66 [32m+[m
+ test6/css/index09c.css            |    66 [32m+[m
+ test6/images/LOGO.png             |   Bin [31m0[m -> [32m17850[m bytes
+ test6/images/LOGOsized.png        |   Bin [31m0[m -> [32m17567[m bytes
+ test6/images/PARTNER.png          |   Bin [31m0[m -> [32m119359[m bytes
+ test6/images/PARTNER_UP.png       |   Bin [31m0[m -> [32m98437[m bytes
+ test6/images/icon1.png            |   Bin [31m0[m -> [32m642[m bytes
+ test6/images/icon2.png            |   Bin [31m0[m -> [32m990[m bytes
+ test6/images/icon3.png            |   Bin [31m0[m -> [32m582[m bytes
+ test6/images/image1.jpg           |   Bin [31m0[m -> [32m627367[m bytes
+ test6/images/image2.jpg           |   Bin [31m0[m -> [32m1013852[m bytes
+ test6/images/image3.jpg           |   Bin [31m0[m -> [32m403749[m bytes
+ test6/images/images1.jpg          |   Bin [31m0[m -> [32m355388[m bytes
+ test6/images/images2.jpg          |   Bin [31m0[m -> [32m106684[m bytes
+ test6/images/images3.jpg          |   Bin [31m0[m -> [32m131891[m bytes
+ test6/index.html                  |   148 [32m+[m
+ test6/index01.html                |   234 [32m+[m
+ test6/index09.html                |   139 [32m+[m
+ test6/index09a.html               |   139 [32m+[m
+ test6/popup01.html                |    25 [32m+[m
+ test6/script/_notes/dwsync.xml    |     6 [32m+[m
+ test6/script/index-01.js          |    49 [32m+[m
+ test6/script/index.js             |    37 [32m+[m
+ test6/script/index01.js           |    65 [32m+[m
+ test6/script/index09.js           |    52 [32m+[m
+ test6/script/jquery-1.12.2.min.js |     5 [32m+[m
+ test6/script/jquery.js            | 11015 [32m++++++++++++++++++++++++++++++++++++[m
+ 33 files changed, 12351 insertions(+), 1 deletion(-)

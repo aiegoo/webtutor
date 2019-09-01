@@ -38,13 +38,14 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .tab-wrap {width: 45%; float: left;}
 .tabs {width: 100%; height: 200px; margin: 20px auto; position: relative;}
 .tab-buttons {border-right: 2px solid white;}/* make it work plz */
-.tab-buttons span {font: 400 0.9rem 'open sans', sans-serif; color: #000; background: coral; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center; line-height: 40px;box-shadow: -10px -10px 25px 3px rgba(0,0,0,0.5)}
+.tab-buttons span {  background: coral; cursor: pointer; width: 33.33%; float: left; text-align: center; line-height: 40px; }
+/* .tab-buttons span {font: 400 0.9rem 'open sans', sans-serif; color: #000; background: coral; cursor: pointer; display: block; width: 33.33%; float: left; text-align: center; line-height: 40px;box-shadow: -10px -10px 25px 3px rgba(0,0,0,0.5)} */
 .tab-content {border-bottom: 3px solid #ddd; background: #eee; display: inline-block;}
 
-#lamp {width: 33.33%; height: 2px; background: #333; display: block; position: absolute; top: 40px; transition: all .3 ease-in}
-#lamp.content2 {left: 33.33%; transition: all .3s ease-in}
-#lamp.content3 {left: 66.66%; transition: all .3s ease-in}
-#lamp.content1 {left: 0; transition: all .3s ease-in}
+#lamp {width: 33.33%; height: 2px; background: #333; display: block; position: absolute; top: 40px; }
+#lamp.content2 {left: 33.33%;}
+#lamp.content3 {left: 66.66%;}
+#lamp.content1 {left: 0; }
 
 .icon {width: 1000px; float: left;}
 .icons {width: 25%; height: 260px; text-align: center; background: rgba(122,122,122,0.4);margin: 3%; float: left; padding: 20px 5px;position: relative;}

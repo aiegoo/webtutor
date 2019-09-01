@@ -30,3 +30,11 @@
 > fixes .slide-button bugs with dots for test5
 > break for snacs and chats for half an hour
 > complete Test5 at 5:32 PM
+
+`Sep 1 Test6 Index on Final`
+> begins at 8:13 PM for boiler plates
+> finishes html tags at 8:51 PM
+> finishes nav bar css js at 9:27 PM
+> finishes banner and slide-button at 9:45 PM
+> finishes tabs at 10:36 PM
+> finishes css and js for main parts at 10:59 PM

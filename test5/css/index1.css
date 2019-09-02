@@ -26,10 +26,10 @@ a {text-decoration: none; color: inherit}
 .welcome div {color: rgb(187, 156, 115)}
 .welcome span {color: #fff;}
 
-.banner-btn {position: absolute; color: #fff; font-size: 10rem; width: 240px; height:40px;  letter-spacing: -25px; margin: 0 auto; bottom: 20%; left: 50%; transform: translateX(-50%); /* z-index: 999; */}
+.banner-btn {position: absolute; color: #fff; font-size: 2.8rem; width: 260px; height:40px; margin: 0 auto; bottom: 20%; left: 50%; transform: translateX(-50%); /* z-index: 999; */}
 p.bts-wrap {line-height: 30px; display: inline;}
 span.bts {cursor: pointer; }
-span.bts > a {content: "\2022"; z-index: 9999;height: 40px; display: inline}
+span.bts > a {content: "\2022"; z-index: 9999; height: 40px; display: inline}
 
 .contents {width: 1000px; height: 500px; margin: auto; }
 .notice {width: 50%; float: left;}

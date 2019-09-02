@@ -57,17 +57,6 @@ $(".tab-buttons span").click(function(){
 ```
 > fade banner
 ```
-var i = 0;
-var depth = 20;
-(function gallery(){
-      $(".gallery-wrap li").eq(i).css("z-index", depth++).fadeOut(0);
-      $(".gallery-wrap li").eq(i).delay(2000).fadeIn(2000, function(){
-            if (i == 2) i = 0;
-            else i++;
-            gallery();
-```
-> fade banner2 
-```
  var n = 0;
 var depth = 100;
 function ani(){

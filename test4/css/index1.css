@@ -47,6 +47,8 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 #lamp.content3 {left: 66.66%;}
 #lamp.content1 {left: 0; }
 
+.tab-wrap {width: 100%; float: left;}
+
 .icon {width: 1000px; float: left;}
 .icons {width: 25%; height: 260px; text-align: center; background: rgba(122,122,122,0.4);margin: 3%; float: left; padding: 20px 5px;position: relative;}
 .icons:hover {background: rgba(0,102,204,0.8); cursor: pointer;}

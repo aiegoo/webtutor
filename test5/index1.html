@@ -10,6 +10,17 @@
      <script src="scripts/index1.js" defer="defer"></script>
 </head>
 <body>
+     <div id="modal-bg"></div>
+     <div id="modal-wrap">
+          <div id="modal-body">
+               <div id="modal-content">
+                    <div class="tab-wrap">
+                         <h2>modal content</h2>
+                    </div>
+                    <span class="modal-button close"><a href="javascript: modalClose();" class="">&#88;</a></span>
+               </div>
+          </div>
+     </div>
      <div class="wrap">
           <div class="header clear">
                <div class="logo"><img src="images/LOGO.png" alt="#"></div>
@@ -102,7 +113,7 @@
           </div><!-- notice -->
           <div class="partner clear">
                <h2>LOREM</h2>
-               <div class="partner_info"><a><img src="images/PARTNER.png" alt="#"></a></div>
+               <div class="partner_info"><a href="javascript: modalOpen();"><img src="images/PARTNER.png" alt="#"></a></div>
           </div><!-- partner -->
           <div class="icon clear">
                <div class="icons">

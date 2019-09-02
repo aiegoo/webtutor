@@ -93,6 +93,13 @@ $(".nav").hover(function(){
 }, function(){
      $("ul", $(this)).stop().slideUp();
 ```
+`modal`
+```
+function modalOpen(){
+     $("#modal-bg").show(0);
+     $("#modal-wrap").css("display", "block");
+}
+```
 `CSS Notabble`
 > tab css
 ```

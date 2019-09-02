@@ -14,3 +14,13 @@ $(".bts").click(function(){
 function popUp(){
      window.open("popup.html");
 }
+
+function modalOpen(){
+     $("#modal-bg").show(0);
+     $("#modal-wrap").css("display", "block");
+}
+
+function modalClose(){
+     $("#modal-bg").hide();
+     $("#modal-wrap").css("display", "none");
+}

@@ -33,11 +33,11 @@ $(".tab-buttons span").click(function(){
 });
 
 function modalOpen(){
-    
+     $("#modal-bg").show(500);
      $("#modal-wrap").css("display", "block");
 }
 function modalClose(){
-    
+     $("#modal-bg").hide();
      $("#modal-wrap").css("display", "none");
      
 }

@@ -27,6 +27,16 @@ var depth = 20;
       });
 })();
 
+/* var n = 0;
+var depth = 20;
+(function ani(){
+     $(".slide li").eq(n).css("z-index", depth++).fadeOut(0);
+     $(".slide li").eq(n).delay(500).fadeIn(2000, function(){
+          if (n==2) n=0;
+          else n++;
+          ani();
+     });
+})(); */
 
 var Content = $(".content > div");
 $(Content).hide();

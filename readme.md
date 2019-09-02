@@ -77,7 +77,7 @@ function ani(){
     if(n == 3) n = 0;
     ani();
 ```
-> slide button
+> prev next button
 ```
 $(".btn-next").click(function(){
      if(n < 2) n++;

@@ -9,17 +9,21 @@
 > `&#8594;` for right arrow
 > `&#8595;` for down arrow
 > `&#8678;` for left white arrow
-
+---
 `emmet for modal`
 > `#modal-bg+#modal-wrap>#modal-body>#modal-content>.tab-wrap <br>
 > `#modal-bg+#modal-wrap>#modal-body>#modal-content>table.modal-table>tr*2>td{0 제목}+td{lorem}^^.button.modal-button>a{Close} <br>
+---
 `emmet for login form`
 > `#login.login>.login-title+.login-content>.input-name>h2^input.field-input+.input-name>h2^button.submit-btn <br>
+---
 `emmet for tabs`
 > .tabs>.tab-buttons>span*3.content${form$}+#lamp.content1^.content>div*3.content$>form <br>
+---
 `emmet for submenu-bg`
 > .wrap>.header>.logo>img^.navs>.nav>div*4{MENU $$}^.submenu>.submenu-bg>ul*4>li*3{submenu $} <br>
 > .wrap>.header>.logo>img^div.navs>.nav>div{MENU0$}*4^div.submenu>.sub-bg>ul*4>li{submenu$}*4 <br>
+---
 `emmet for normal header`
 > .wrap>header.clear.wrap>.logo>img^.navs>.nav>div+ulli*3>a <br>
 

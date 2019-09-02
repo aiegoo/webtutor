@@ -65,6 +65,17 @@ var depth = 20;
             else i++;
             gallery();
 ```
+> fade banner2 
+```
+ var n = 0;
+var depth = 100;
+function ani(){
+  $(".banner li").eq(n).fadeOut(0).css({"z-index": depth++});
+  $(".banner li").eq(n).delay(2000).fadeIn(2000, function(){
+    n++;
+    if(n == 3) n = 0;
+    ani();
+```
 > slide button
 ```
 $(".btn-next").click(function(){
@@ -72,6 +83,21 @@ $(".btn-next").click(function(){
      ani();
 function ani() {
      $(".slide").stop().animate({"left": (-n*1000)+"px"}, 2000);
+```
+> slide updown
+```
+var n = 0;
+(function ani(){
+     $(".slide li").delay(2000).eq(0).animate({"margin-top": "-=400px"}, 2000, function(){
+          n++;
+          if (n==3) {
+               n=0;
+               $(this).css("margin-top", "0px");
+          }
+          ani();
+.banner {width: 960px; height: 400px; margin: 0 auto; position: relative; background: #000; overflow: hidden; z-index: unset;}
+.slide {width: 100%; position: absolute;}
+.slide > li {}
 ```
 > normal slide banner
 ```
@@ -117,7 +143,17 @@ $(".nav").hover(function(){
 #modal-body {background:rgba(255, 255, 255, 0.8); width: 400px; height: 400px; top: 50%; left: 50%;transform: translate(-50%, -50%);  position: fixed; vertical-align: middle; text-align: center; line-height: 30px;}
 #modal-content { margin-top: 30px;}
 ```
+> footer css
+```
+footer {width: 1000px; height: 150px; background: rgba(255,127,80,0.5); left: 200px; margin: 0 auto;}
+.footer-wrap {width: 100%; float: left; vertical-align: middle; padding: 1px 0; margin-left: 10px;}
+.legal {width: 35%; float: left; padding: 5% 10%;}
+.legal li {padding: 3px;}
 
+.footer-body {padding: 1%;}
+.address {width: 100%; text-align: center}
+.footer-body.address:hover {color: red}
+```
 
 ## Final countdown to Test
 

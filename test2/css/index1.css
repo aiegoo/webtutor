@@ -43,7 +43,7 @@ table {border-collapse: collapse; color: #000; font-size: 0.8rem;}
 .icon {width: 960px; float: left;}
 .icons {float: left;width: 30%; text-align: center; margin: 1%;}
 .icons img {width: 57%;}
-.icon-btn { cursor: pointer;  margin: 0 auto; width: 70%; border-radius: 10px; padding: 5px; font-size: 2rem; background: rgba(122,122,122,0.4); letter-spacing: -5px;}
+.icon-btn { cursor: pointer;  /* margin: 0 auto; */ width: 70%; border-radius: 10px; padding: 5px; font-size: 2rem; background: rgba(122,122,122,0.4); letter-spacing: -5px;}
 .icon-btn:hover {background: rgba(51,102,205,0.5)}
 
 footer {width: 960px; height: 100px; margin: 0 auto; color: #999;}

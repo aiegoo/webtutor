@@ -18,14 +18,15 @@
 > `#login.login>.login-title+.login-content>.input-name>h2^input.field-input+.input-name>h2^button.submit-btn <br>
 ---
 `emmet for tabs`
-> .tabs>.tab-buttons>span*3.content${form$}+#lamp.content1^.content>div*3.content$>form <br>
+> .tab-wrap>.tabs>.tab-buttons>span*4.content${TAB$}+#lamp.content1^.content>div*4.content${lorem*2} <br>
 ---
 `emmet for submenu-bg`
-> .wrap>.header>.logo>img^.navs>.nav>div*4{MENU $$}^.submenu>.submenu-bg>ul*4>li*3{submenu $} <br>
 > .wrap>.header>.logo>img^div.navs>.nav>div{MENU0$}*4^div.submenu>.sub-bg>ul*4>li{submenu$}*4 <br>
 ---
 `emmet for normal header`
-> .wrap>header.clear.wrap>.logo>img^.navs>.nav>div+ulli*3>a <br>
+> .wrap>.header>.logo>img^.navs>.nav*3>div{MENU$$}+ul.submenu>li*3>a{submenu$} <br>
+> 
+
 
 
 `jquery`
@@ -36,9 +37,9 @@
 ```
 $(".bts").click(function(){
      var n = $(this).index();
-     $(".bts a").css({"color": "#fff"});
+     $(".bts a").css("color", "#fff");
      $(".bts a").eq(n).css("color", "#f30");
-     $(".slide").stop().animate({"left": (-n*1000+"px")}, 2000);
+     $(".slide").stop().animate({"left": (-n*1000)+"px"}, 2000);
 ```
 > Tab 
 ```
@@ -56,22 +57,37 @@ $(".tab-buttons span").click(function(){
 ```
 > fade banner
 ```
-var i = 0;
-var depth = 20;
-(function gallery(){
-      $(".gallery-wrap li").eq(i).css("z-index", depth++).fadeOut(0);
-      $(".gallery-wrap li").eq(i).delay(2000).fadeIn(2000, function(){
-            if (i == 2) i = 0;
-            else i++;
-            gallery();
+ var n = 0;
+var depth = 100;
+function ani(){
+  $(".banner li").eq(n).fadeOut(0).css({"z-index": depth++});
+  $(".banner li").eq(n).delay(2000).fadeIn(2000, function(){
+    n++;
+    if(n == 3) n = 0;
+    ani();
 ```
-> slide button
+> prev next button
 ```
 $(".btn-next").click(function(){
      if(n < 2) n++;
      ani();
 function ani() {
      $(".slide").stop().animate({"left": (-n*1000)+"px"}, 2000);
+```
+> slide updown
+```
+var n = 0;
+(function ani(){
+     $(".slide li").delay(2000).eq(0).animate({"margin-top": "-=400px"}, 2000, function(){
+          n++;
+          if (n==3) {
+               n=0;
+               $(this).css("margin-top", "0px");
+          }
+          ani();
+.banner {width: 960px; height: 400px; margin: 0 auto; position: relative; background: #000; overflow: hidden; z-index: unset;}
+.slide {width: 100%; position: absolute;}
+.slide > li {}
 ```
 > normal slide banner
 ```
@@ -124,7 +140,17 @@ function modalOpen(){
 #modal-body {background:rgba(255, 255, 255, 0.8); width: 400px; height: 400px; top: 50%; left: 50%;transform: translate(-50%, -50%);  position: fixed; vertical-align: middle; text-align: center; line-height: 30px;}
 #modal-content { margin-top: 30px;}
 ```
+> footer css
+```
+footer {width: 1000px; height: 150px; background: rgba(255,127,80,0.5); left: 200px; margin: 0 auto;}
+.footer-wrap {width: 100%; float: left; vertical-align: middle; padding: 1px 0; margin-left: 10px;}
+.legal {width: 35%; float: left; padding: 5% 10%;}
+.legal li {padding: 3px;}
 
+.footer-body {padding: 1%;}
+.address {width: 100%; text-align: center}
+.footer-body.address:hover {color: red}
+```
 
 ## Final countdown to Test
 

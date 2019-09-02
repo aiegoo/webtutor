@@ -14,3 +14,28 @@ $(".bts").click(function(){
 function popUp(){
      window.open("popup.html");
 }
+
+var Content = $(".content > div");
+$(Content).hide();
+$(Content).slideDown(500);
+$("tab-buttons span").click(function(){
+     var Tabs = $(this).attr("class");
+     $("#lamp").removeClass().addClass("#lamp").addClass(Tabs);
+     $(Content).each(function(){
+          if($(this).hassClass(Tabs)){
+               $(this).fadeIn(800);
+          }else{
+               $(this).hide();
+          }
+     });
+});
+
+function modalOpen(){
+     $("#modal-bg").show(500);
+     $("#modal-wrap").css("display", "table");
+}
+function modalClose(){
+     $("#modal-bg").hide();
+     $("#modal-wrap").css("display", "none");
+}
+

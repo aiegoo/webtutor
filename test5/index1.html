@@ -10,12 +10,84 @@
      <script src="scripts/index1.js" defer="defer"></script>
 </head>
 <body>
+     <div id="modal-bg"></div>
+     <div id="modal-wrap">
+          <div id="modal-body">
+               <div id="modal-content">
+                    <div class="tab-wrap">
+                         <div class="tabs">
+                              <div class="tab-buttons">
+                                   <span class="content1"></span>
+                                   <span class="content2"></span>
+                                   <span class="content3"></span>
+                                   <div id="lamp" class="content1"></div>
+                              </div>
+                              <div class="content">
+                                   <div class="content1">
+                                             <div class="login" id="login">
+                                                  <div class="login-title">
+                                                         LOG IN
+                                                  </div>
+                                                  <div class="login-content">
+                                                       <div class="input-name">
+                                                           <h2>Username</h2>
+                                                     
+                                                       </div>
+                                                       <input type="text" name="username" value="" class="field-input" />
+                                                       <div class="input-name input-margin">
+                                                           <h2>Password</h2>
+                                                     
+                                                       </div>
+                                                       <input type="text" name="password" value="" class="field-input" />
+                                                       <button class="submit-btn">
+                                                          Enter
+                                                       </button> 
+                                                  </div>
+                                             </div>
+                                   </div>
+                                   <div class="content2">
+                                        <div id="login" class="login">
+                                             <div class="login-title">Signup</div>
+                                             <div class="login-content">
+                                                  <div class="input-name">
+                                                       <h2>Your Name Please</h2>
+                                                  </div>
+                                                  <input type="text" class="field-input">
+                                                  <div class="input-name">
+                                                       <h2>Your Password</h2>
+                                                  </div>
+                                                  <input type="text" class="field-input">
+                                                  <button class="submit-btn">Enter Now</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="content3">
+                                             <div id="login" class="login">
+                                                  <div class="login-title">Joinme</div>
+                                                  <div class="login-content">
+                                                       <div class="input-name">
+                                                            <h2>이름 </h2>
+                                                       </div>
+                                                       <input type="text" class="field-input">
+                                                       <div class="input-name">
+                                                            <h2></h2>
+                                                       </div>
+                                                       <button class="submit-btn">입장하기</button>
+                                                  </div>
+                                             </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
      <div class="wrap">
           <div class="header clear">
                <div class="logo"><img src="images/LOGO.png" alt="#"></div>
                <div class="navs">
                     <div class="nav">
-                         <div>lorem01</div>
+                         <div>lorem01&#8595;</div>
                          <ul class="submenu">
                               <li><a href="#">lorem1</a></li>
                               <li><a href="#">lorem2</a></li>
@@ -61,12 +133,12 @@
                </div>
                <div class="banner-btn">
                     <p class="bts-wrap">
-                         <span class="bts"><a href="#">&#8226;</a></span>
-                         <span class="bts"><a href="#">&#8226;</a></span>
-                         <span class="bts"><a href="#">&#8226;</a></span>
-                         <span class="bts"><a href="#">&#8226;</a></span>
-                         <span class="bts"><a href="#">&#8226;</a></span>
-                    </p
+                         <span class="bts"><a href="#">&#11044;</a></span>
+                         <span class="bts"><a href="#">&#11044;</a></span>
+                         <span class="bts"><a href="#">&#11044;</a></span>
+                         <span class="bts"><a href="#">&#11044;</a></span>
+                         <span class="bts"><a href="#">&#11044;</a></span>
+                    </p>
                </div>
           </div><!-- banner -->
      </div><!-- wrap -->
@@ -102,7 +174,7 @@
           </div><!-- notice -->
           <div class="partner clear">
                <h2>LOREM</h2>
-               <div class="partner_info"><a><img src="images/PARTNER.png" alt="#"></a></div>
+               <div class="partner_info"><a href="javascript: modalOpen();"><img src="images/PARTNER.png" alt="#"></a></div>
           </div><!-- partner -->
           <div class="icon clear">
                <div class="icons">

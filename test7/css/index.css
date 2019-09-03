@@ -14,26 +14,48 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .nav div:hover {background: rgb(18, 159, 230); font-weight: bolder}
 
 .submenu {width: 200px; line-height: 40px; height: 40px; position: absolute; z-index: 100; display: none;}
-.submenu li {background: rgb(50, 142, 223, 0.8)}
+.submenu li {background: rgb(50, 142, 223, 0.8); color: #fff;}
 .submenu li:hover {background: rgba(255,255,255,0.4)}
 
 
-.banner {width: 1200px; height: 300px; position: relative;}
+.banner {width: 1200px; height: 300px; position: relative; z-index: -100;}
 .slide {}
 .slide li{width: 1200px; height: 300px; position: absolute; top: 0; left: 0;}
 .slide li img {width: 1200px; height: 300px;}
 
 .welcome {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.welcome1 {color: burlywood}
+.welcome2 {color:red}
+.welcome3:hover {
+     background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100% );
+    transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+    background-size: 100% 200%;
+    background-position: 0 0;
+}
 
 .contents {width: 1200px; height: 300px; margin: 0 auto;}
-.tab-wrap {width: 400px; height: 300px; text-align: center; }
-.tabs {width: 100%}
-.tab-button {background: rgba(51, 64, 247, 0.7); height: 40px; line-height: 40px; }
-.tab-button span {width: 50%}
+.tab-wrap {width: 400px; height: 300px; text-align: center; float: left;}
+.tabs {width: 100%; position: relative;}
+.tab-button {background: rgba(51, 64, 247, 0.7); height: 40px; line-height: 40px; text-align: center; cursor: pointer; }
+.tab-button span {width: 200px; text-align: center; float: left; box-shadow: 10px -5px 20px 3px; color: #fff; font-weight: bolder;}
 
-.banner2 {width: 33.33%}
+#lamp {width: 50%; background: red; height: 2px; position: absolute; top: 40px; }
+.tab-body {background: #eee; border-bottom: 2px solid black; height: 300px;}
+#lamp.content1 {left: 0; transition: all .3s ease-in}
+#lamp.content2 {left: 200px; transition: all .3s ease-in}
+.tab-body {width: 100%;}
 
-.family {width: 33.33%}
+.content2 {width: 100%;}
+.gallery {width: 400px; height: 300px; line-height: 300px; margin: 0 auto;}
+.gallery li {float: left; } 
+.gallery img {width: 130px;}
+
+.banner2 {width: 400px; float: left; margin: 0 1%; overflow: hidden;}
+.slide2 {width: 1200px; margin: 0 auto;}
+.slide2 li {float: left;position: absolute; height: 300px;bottom: 100px;}
+.slide2 li img {width: 400px;}
+
+.family {width: 33.33%; float: right;}
 
 footer {width: 1200px; height: 100px;}
 .footer {}

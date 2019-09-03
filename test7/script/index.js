@@ -5,19 +5,29 @@ $(".nav").hover(function(){
 });
 
 var n = 0;
-var depth = 20;
+var depth = 100;
 (function ani(){
-     $(".slide li").eq(n).css("z-index", depth++).fadeIn();
-     $(".slide li").eq(n).fadeOut(3000, function(){
+     $(".slide li").eq(n).css("z-index", depth++).fadeOut(0);
+     $(".slide li").eq(n).delay(2000).fadeIn(3000, function(){
           n++;
-          if(n = 2) n=0;
-          ani();
+          if(n==3) n=0;
+               ani();          
      });
 })();
 
-var Contetn = $(".tab-body > div");
+/* (function ani(){
+     $(".slide li").eq(n).fadeOut(0).css("z-index", depth++);
+     $(".slide li").eq(n).fadeIn(3000);
+     $(".slide li").each(function(){
+          n++;
+          if(n==2) n=0;
+          ani();
+     });
+})(); */
+
+var Content = $(".tab-body > div");
 $(Content).hide();
-$(Content).last().fadeIn(500);
+$(Content).slideDown(500);
 $(".tab-button span").click(function(){
      var Tabs = $(this).attr("class");
      $("#lamp").removeClass().addClass("#lamp").addClass(Tabs);

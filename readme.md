@@ -154,6 +154,11 @@ footer {width: 1000px; height: 150px; background: rgba(255,127,80,0.5); left: 20
 
 ## Final countdown to Test
 
+`Sep 3 after actual test`
+> begins at 4:08 PM and finishes html tags at 4:58 PM
+> finishes jquery section for nav slide modal tabs and popup at 5:18 PM
+> 
+
 `Sep 2 Test5 index1 on Tony` 
 > practice on modal with tabs
 > begins modifying original at 12:07 AM

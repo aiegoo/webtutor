@@ -25,6 +25,13 @@ var depth = 100;
      });
 })(); */
 
+var i = 0;
+$(".bts").click(function(){
+     $(".bts a").eq(i).css("color", "#fff");
+     $("span a").eq(i).css("color", "#f30");
+     $(".slide2 li").animate({"left": (-n*400)+"px"}, 2000);
+});
+
 var Content = $(".tab-body > div");
 $(Content).hide();
 $(Content).slideDown(500);

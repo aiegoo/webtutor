@@ -33,10 +33,10 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
     background-position: 0 0;
 }
 
-.contents {width: 1200px; height: 300px; margin: 0 auto;  position: relative;}
+.contents {width: 1200px; height: 300px; margin: 15px auto;  position: relative;}
 
 .tab-wrap {width: 400px; height: 300px; text-align: center; float: left;}
-.tabs {width: 100%; position: relative;}
+.tabs {width: 100%; height: 300px; position: relative;}
 .tab-button {background: rgba(51, 64, 247, 0.7); height: 40px; line-height: 40px; text-align: center; cursor: pointer; }
 .tab-button span {width: 200px; text-align: center; float: left; box-shadow: 10px -5px 20px 3px; color: #fff; }
 .tab-button span:hover {font-weight: bolder;}
@@ -46,30 +46,35 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 #lamp.content1 {left: 0; transition: all .3s ease-in}
 #lamp.content2 {left: 200px; transition: all .3s ease-in}
 
-.content1 {width: 90%; height: 100%; margin: 0 auto;}
+.content1 {width: 90%; height: 83%; margin: 0 auto; display: inline-block;}
 .content1 .table {font-size: 0.8rem; border-collapse: collapse;}
 .content1 .table tr:nth-child(2n) {background: #fff;}
 .content1 .table tr:nth-child(2n+1) {cursor: pointer; }
-.content1 .table h2 {font-size: 0.8rem;}
+.content1 .notice h2 {margin: 20px;}
 .content1 .table tr>td:first-child {background: #666; color: #fff; margin-right: 5px; font-size: 0.5rem; border-bottom: 1px solid white; text-align: center;}
-.content1 .table tr>td {margin-left: 5px;}
+.content1 .table tr>td {margin-left: 5px; padding: 10px 0;}
 
-.content2 {width: 100%;}
-.gallery {width: 400px; height: 300px; line-height: 300px; margin: 0 auto;}
+.content2 {width: 100%; }
+.gallery {width: 400px; margin: 50px auto;}
 .gallery li {float: left; } 
 .gallery img {width: 130px;}
 
-.contents .banner2 {width: 400px; height: 300px; float: left; margin: 0 1%; overflow: hidden;position: relative;}
-.slide2 {width: 1200px; margin: 0 auto;}
-.slide2 li {float: left;position: absolute;}
+.contents .banner2 {width: 400px; height: 300px; float: left; margin: 0 1%;position: relative; z-index: -999; overflow: hidden;}
+.slide2 {width: 800px; height: 300px; margin: 0 auto;position: absolute; }
+.slide2 li {float: left;}
 .slide2 li img {width: 400px;}
 
-.family {width: 32%; height: 300px; float: right; position: absolute; right:0; line-height: 70px; border-bottom: 3px solid black;}
+.slide-button {position: absolute; color:#000; font-size: 2.4rem; width: 240px; height:40px;  letter-spacing: 5px; margin: 0 auto; bottom: 5px; left: 50%; transform: translateX(-20%); /* z-index: 999; */}
+p.bts-wrap {line-height: 30px; display: inline;}
+span.bts {cursor: pointer; }
+span.bts > a {content: "\2022"; z-index: 9999;height: 40px; display: inline}
+
+.family {width: 32%; height: 300px; float: right; position: absolute; right:0; line-height: 70px; background: #eee; border-bottom: 3px solid black;}
 .family li {margin: 0 auto; text-align: center;}
 .family li:hover {
-     background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100% );
+     background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(51, 64, 247, 0.7) calc(50% - 8px), rgba(51, 64, 247, 0.35) 100% );
      transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
-     background-size: 100% 200%;
+     background-size: 70% 200%;
      background-position: 0 0;}
 
 footer {width: 1200px; height: 100px; position: relative}

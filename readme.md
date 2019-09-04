@@ -158,6 +158,7 @@ footer {width: 1000px; height: 150px; background: rgba(255,127,80,0.5); left: 20
 > begins at 4:08 PM and finishes html tags at 4:58 PM
 > finishes jquery section for nav slide modal tabs and popup at 5:18 PM
 > one third of the css into welcome and tabs at5:58 PM
+> begins css again at 10:52 AM
 
 `Sep 2 Test5 index1 on Tony` 
 > practice on modal with tabs

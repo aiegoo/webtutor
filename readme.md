@@ -142,14 +142,17 @@ function modalOpen(){
 ```
 > footer css
 ```
-footer {width: 1000px; height: 150px; background: rgba(255,127,80,0.5); left: 200px; margin: 0 auto;}
-.footer-wrap {width: 100%; float: left; vertical-align: middle; padding: 1px 0; margin-left: 10px;}
-.legal {width: 35%; float: left; padding: 5% 10%;}
-.legal li {padding: 3px;}
+footer {width: 1200px; height: 100px; position: relative}
+.footer {background: rgba(18, 159, 230, 0.3); height: 100px;margin-top: 70px;}
+.footer-wrap {width: 100%; height: 100%; position: relative;;}
 
-.footer-body {padding: 1%;}
-.address {width: 100%; text-align: center}
-.footer-body.address:hover {color: red}
+.footer-body {width: 100%; margin: 0 auto; }
+.legal {float: left; width: 100%; height: 20%; margin: 5px auto; }
+.legal li {float:left; display: inline-block; width: 30%; height: 30px; text-align: center; }
+.legal li:hover {color: red;cursor: pointer}
+.footer-notice {width: 100%; height: 60%; position: relative;}
+.footer-notice p {float: left; margin: 0 0 3px 30px}
+.footer-notice address {float: right;}
 ```
 
 ## Final countdown to Test
@@ -158,7 +161,8 @@ footer {width: 1000px; height: 150px; background: rgba(255,127,80,0.5); left: 20
 > begins at 4:08 PM and finishes html tags at 4:58 PM
 > finishes jquery section for nav slide modal tabs and popup at 5:18 PM
 > one third of the css into welcome and tabs at5:58 PM
-> begins css again at 10:52 AM
+> begins css again at 10:52 AM (lunch and break for 1/.5 hrs)
+> completes test7 at 3:10 PM
 
 `Sep 2 Test5 index1 on Tony` 
 > practice on modal with tabs

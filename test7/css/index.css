@@ -42,11 +42,11 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .tab-button span:hover {font-weight: bolder;}
 
 #lamp {width: 50%; background: red; height: 2px; position: absolute; top: 40px; }
-.tab-body {width: 100%; height: 300px; background: #eee; border-bottom: 2px solid black; height: 300px; overflow: hidden}
+.tab-body {width: 100%;background: #eee; border-bottom: 2px solid black; height: 260px; overflow: hidden}
 #lamp.content1 {left: 0; transition: all .3s ease-in}
 #lamp.content2 {left: 200px; transition: all .3s ease-in}
 
-.content1 {width: 90%; height: 83%; margin: 0 auto; display: inline-block;}
+.content1 {width: 90%; height: 83%; margin: 0 auto; }
 .content1 .table {font-size: 0.8rem; border-collapse: collapse;}
 .content1 .table tr:nth-child(2n) {background: #fff;}
 .content1 .table tr:nth-child(2n+1) {cursor: pointer; }
@@ -59,17 +59,17 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .gallery li {float: left; } 
 .gallery img {width: 130px;}
 
-.contents .banner2 {width: 400px; height: 300px; float: left; margin: 0 1%;position: relative; z-index: -999; overflow: hidden;}
+.banner2 {width: 400px; height: 300px; float: left; margin: 0 1%;position: relative; overflow: hidden; border-bottom: 1px solid coral}
 .slide2 {width: 800px; height: 300px; margin: 0 auto;position: absolute; }
 .slide2 li {float: left;}
 .slide2 li img {width: 400px;}
 
-.slide-button {position: absolute; color:#000; font-size: 2.4rem; width: 240px; height:40px;  letter-spacing: 5px; margin: 0 auto; bottom: 5px; left: 50%; transform: translateX(-20%); /* z-index: 999; */}
+.slide-button {position: absolute; color:#000; font-size: 2.4rem; width: 240px; height:40px;  letter-spacing: 5px; margin: 0 auto; bottom: 10px; left: 50%; transform: translateX(-20%);}
 p.bts-wrap {line-height: 30px; display: inline;}
-span.bts {cursor: pointer; }
-span.bts > a {content: "\2022"; z-index: 9999;height: 40px; display: inline}
+span.bts {cursor: pointer}
+span.bts > a {content: "\2022";}
 
-.family {width: 32%; height: 300px; float: right; position: absolute; right:0; line-height: 70px; background: #eee; border-bottom: 3px solid black;}
+.family {width: 32%; height: 300px; float: right; position: absolute; right:0; line-height: 70px; background: #eee; border-bottom: 3px solid black; margin: 0 -5px;}
 .family li {margin: 0 auto; text-align: center;}
 .family li:hover {
      background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(51, 64, 247, 0.7) calc(50% - 8px), rgba(51, 64, 247, 0.35) 100% );

@@ -15,15 +15,16 @@ var depth = 100;
      });
 })();
 
-/* (function ani(){
-     $(".slide li").eq(n).fadeOut(0).css("z-index", depth++);
-     $(".slide li").eq(n).fadeIn(3000);
-     $(".slide li").each(function(){
-          n++;
-          if(n==2) n=0;
-          ani();
+var m = 0;
+   (function aniSmall(){
+     $(".slide2 li").eq(m).fadeOut(0).css("z-index", depth++);
+     $(".slide2 li").eq(m).fadeIn(3000);
+     $(".slide2 li").each(function(){
+          m++;
+          if(m==1) n=0;
+          aniSmall();
      });
-})(); */
+})();
 
 var x = 0;
 $(".bts").click(function(){

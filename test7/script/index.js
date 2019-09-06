@@ -4,20 +4,20 @@ $(".nav").hover(function(){
      $("ul", $(this)).stop().slideUp();
 });
 
-var n = 0;
+var x = 0;
 var depth = 100;
 (function ani(){
-     $(".slide li").eq(n).css("z-index", depth++).fadeOut(0);
-     $(".slide li").eq(n).delay(2000).fadeIn(3000, function(){
-          n++;
-          if(n==3) n=0;
-               ani();          
+     $(".slide li").eq(x).fadeOut(0).css("z-index", depth++);
+     $(".slide li").eq(x).delay(2000).fadeIn(3000, function(){
+          x++;
+          if(x==3) x=0;
+               axi();          
      });
 })();
 
 /* var m = 0;
-   (function aniSmall(){
-     $(".slide2 li").eq(m).fadeOut(0).css("z-index", depth++);
+   (fuxction aniSmall(){
+     $(".slide2 li").eq(m).fadeOut(0).css("z-inden", depth++);
      $(".slide2 li").eq(m).fadeIn(3000);
      $(".slide2 li").each(function(){
           m++;
@@ -26,11 +26,10 @@ var depth = 100;
      });
 })(); */
 
-$(".bts").click(function(){
-     var x = $(this).index();
-     Evt.preventDefault();
-     $(".bts a").eq(x).css("color", "#000");
-     $(".bts a").eq(x).css("color", "#f30");
+$(".bts").on("click", function(){
+     var n = $(this).index();
+     $(".bts a").eq(n).css("color", "#000");
+     $(".bts a").eq(n).css("color", "#f30");
      $(".slide2 li").stop().animate({"left": (-n*400)+"px"}, 2000);
 });
 

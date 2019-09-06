@@ -69,13 +69,20 @@ p.bts-wrap {line-height: 30px; display: inline;}
 span.bts {cursor: pointer}
 span.bts > a {content: "\2022";}
 
+.flip-card { background: transprent; width: 400px; height: 300px; border: 1px solid #f1f1f1; }
 .family {width: 32%; height: 300px; float: right; position: absolute; right:0; line-height: 70px; background: #eee; border-bottom: 3px solid black; margin: 0 -5px;}
 .family li {margin: 0 auto; text-align: center;}
-.family li:hover {
+/* .family li:hover {
      background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(51, 64, 247, 0.7) calc(50% - 8px), rgba(51, 64, 247, 0.35) 100% );
      transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
      background-size: 70% 200%;
-     background-position: 0 0;}
+     background-position: 0 0;} */
+.flip-card-inner {position: relative; width: 100%; height: 100%; text-align: center; transition: tranform 0.8s;}
+.flip-card:hover .flip-card-inner { transform: rotateY(180deg);}
+
+.flip-card-front, .flip-card-back {position: absolute;width: 100%; height: 100%; backface-visibility: hidden;}
+.flip-card-front {color: black;}
+.flip-card-back { background: dodgerblue; color: white; transform: rotatey(180deg)}
 
 footer {width: 1200px; height: 100px; position: relative}
 .footer {background: rgba(18, 159, 230, 0.3); height: 100px;margin-top: 70px;}

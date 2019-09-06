@@ -15,23 +15,23 @@ var depth = 100;
      });
 })();
 
-var m = 0;
-   (function aniSmall(){
-     $(".slide2 li").eq(m).fadeOut(0).css("z-index", depth++);
-     $(".slide2 li").eq(m).fadeIn(3000);
-     $(".slide2 li").each(function(){
-          m++;
-          if(m==1) n=0;
-          aniSmall();
-     });
+var i = 0;
+   (function mov(){
+     $(".slide2 li, .bts a").eq(i).fadeIn(0).css("z-index", depth++);
+     $(".slide2 li, .bts a").eq(i).delay(3000).fadeOut(3000, function(){          
+               i++;
+               if(i==1) i=0;
+               mov();
+     });   
+     
 })();
 
-var x = 0;
-$(".bts").click(function(){
+/* $(".bts").click(function(){
+     var x = $(this).index();
      $(".bts a").eq(x).css("color", "#000");
      $(".bts a").eq(x).css("color", "#f30");
-     $(".slide2 li").animate({"left": (-n*400)+"px"}, 2000);
-});
+     $(".slide2").animate({"left": (-n*400)+"px"}, 2000);
+}); */
 
 var Content = $(".tab-body > div");
 $(Content).hide();

@@ -4,34 +4,34 @@ $(".nav").hover(function(){
      $("ul", $(this)).stop().slideUp();
 });
 
-var n = 0;
+var x = 0;
 var depth = 100;
 (function ani(){
-     $(".slide li").eq(n).css("z-index", depth++).fadeOut(0);
-     $(".slide li").eq(n).delay(2000).fadeIn(3000, function(){
-          n++;
-          if(n==3) n=0;
-               ani();          
+     $(".slide li").eq(x).fadeOut(0).css("z-index", depth++);
+     $(".slide li").eq(x).delay(2000).fadeIn(3000, function(){
+          x++;
+          if(x==3) x=0;
+               axi();          
      });
 })();
 
-var i = 0;
-   (function mov(){
-     $(".slide2 li, .bts a").eq(i).fadeIn(0).css("z-index", depth++);
-     $(".slide2 li, .bts a").eq(i).delay(3000).fadeOut(3000, function(){          
-               i++;
-               if(i==1) i=0;
-               mov();
-     });   
-     
-})();
+/* var m = 0;
+   (fuxction aniSmall(){
+     $(".slide2 li").eq(m).fadeOut(0).css("z-inden", depth++);
+     $(".slide2 li").eq(m).fadeIn(3000);
+     $(".slide2 li").each(function(){
+          m++;
+          if(m==1) m=0;
+          aniSmall();
+     });
+})(); */
 
-/* $(".bts").click(function(){
-     var x = $(this).index();
-     $(".bts a").eq(x).css("color", "#000");
-     $(".bts a").eq(x).css("color", "#f30");
-     $(".slide2").animate({"left": (-n*400)+"px"}, 2000);
-}); */
+$(".bts").on("click", function(){
+     var n = $(this).index();
+     $(".bts a").eq(n).css("color", "#000");
+     $(".bts a").eq(n).css("color", "#f30");
+     $(".slide2 li").stop().animate({"left": (-n*400)+"px"}, 2000);
+});
 
 var Content = $(".tab-body > div");
 $(Content).hide();

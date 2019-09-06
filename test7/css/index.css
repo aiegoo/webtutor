@@ -59,7 +59,7 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .gallery li {float: left; } 
 .gallery img {width: 130px;}
 
-.banner2 {width: 400px; height: 300px; float: left; margin: 0 1%;position: relative; overflow: hidden; border-bottom: 1px solid coral}
+.banner2 {width: 400px; height: 300px; float: left; margin: 0 1%;position: relative; overflow: hidden; border-bottom: 1px solid coral;}
 .slide2 {width: 800px; height: 300px; margin: 0 auto;position: absolute; }
 .slide2 li {float: left;}
 .slide2 li img {width: 400px;}

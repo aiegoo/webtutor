@@ -26,12 +26,12 @@ var depth = 100;
      });
 })(); */
 
-var x = 0;
 $(".bts").click(function(){
+     var x = $(this).index();
      Evt.preventDefault();
      $(".bts a").eq(x).css("color", "#000");
      $(".bts a").eq(x).css("color", "#f30");
-     $(".slide2 li").animate({"left": (-n*400)+"px"}, 2000);
+     $(".slide2 li").stop().animate({"left": (-n*400)+"px"}, 2000);
 });
 
 var Content = $(".tab-body > div");

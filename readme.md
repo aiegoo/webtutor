@@ -211,3 +211,8 @@ footer {width: 1200px; height: 100px; position: relative}
 > today Aug 31 on Index2.html of test1 on Final \
 *** begins at 12:50, ends at 3:50pm <br> with submenu z-index issues and icon-button layout. Modal/popUp not on the agenda.address
 
+## test schedule
+### Registration
+>> 2019.10.28 ~ 31
+## Test Date -- good luck
+> 2019.11.23 ~ 12. 6

@@ -11,7 +11,7 @@ var depth = 100;
      $(".slide li").eq(x).delay(2000).fadeIn(3000, function(){
           x++;
           if(x==3) x=0;
-               axi();          
+               ani();          
      });
 })();
 

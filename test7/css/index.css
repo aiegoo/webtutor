@@ -60,9 +60,9 @@ ul, li, ol, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
 .gallery img {width: 130px;}
 
 .banner2 {width: 400px; height: 300px; float: left; margin: 0 1%;position: relative; overflow: hidden; border-bottom: 1px solid coral;}
-.slide2 {width: 800px; height: 300px; margin: 0 auto;position: absolute; }
-.slide2 li {float: left;}
-.slide2 li img {width: 400px;}
+.slideB {width: 800px; height: 300px; margin: 0 auto;position: absolute; }
+.slideB li {float: left;}
+.slideB li img {width: 400px;}
 
 .slide-button {position: absolute; color:#000; font-size: 2.4rem; width: 240px; height:40px;  letter-spacing: 5px; margin: 0 auto; bottom: 10px; left: 50%; transform: translateX(-20%);}
 p.bts-wrap {line-height: 30px; display: inline;}
@@ -91,9 +91,7 @@ footer {width: 1200px; height: 100px; position: relative}
 .footer-body {width: 100%; margin: 0 auto; }
 .legal {float: left; width: 100%; height: 20%; margin: 5px auto; }
 .legal li {float:left; display: inline-block; width: 30%; height: 30px; text-align: center; }
-.legal li:hover {color: red;cursor: pointer; 
-    transition: color 0.4s ease 0s;
-}
+.legal li:hover {color: red;cursor: pointer;}
 .footer-notice {width: 100%; height: 60%; position: relative;}
 .footer-notice p {float: left; margin: 0 0 3px 30px}
 .footer-notice address {float: right;}

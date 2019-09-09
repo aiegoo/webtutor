@@ -84,6 +84,12 @@ span.bts > a {content: "\2022";}
 .flip-card-front {color: black;}
 .flip-card-back { background: dodgerblue; color: white; transform: rotatey(180deg)}
 
+.family {display: flex; justify-content: flex-begin; align-items: unset; min-height: auto;}
+.loading { max-width: 20%; line-height: 1.4; font-size: 1.2rem; font-weight: bold; text-align: center;}
+/* .loading-text {font-weight: normal; font-size: 0.9rem; color: rgba(189, 189, 189, 1); margin: .6rem 0 2rem 0; display: block;} */
+.loading-circle {width: 50px; height: 50px; border: 5px solid rgba(189, 189, 189, .25); border-right-color: rgba(3, 155, 229, 1); border-top-color: rgba(3, 155, 229, 1); border-radius: 50%; display: inline-block; animation: rotate 600ms infinite linear;}
+
+
 footer {width: 1200px; height: 100px; position: relative}
 .footer {background: rgba(18, 159, 230, 0.3); height: 100px;margin-top: 70px;}
 .footer-wrap {width: 100%; height: 100%; position: relative;;}
